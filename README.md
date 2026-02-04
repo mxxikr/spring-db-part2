@@ -5,7 +5,7 @@
 ### 💻 Development Environment
 
 * Java 21
-* Spring Boot 2.6.5
+* Spring Boot 4.0.1
 * Gradle
 * IDE: IntelliJ
 
