@@ -14,6 +14,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.util.ObjectUtils;
 import org.springframework.util.StringUtils;
 
+import javax.sql.DataSource;
 import java.sql.PreparedStatement;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -27,8 +28,8 @@ public class JdbcTemplateItemRepositoryV1 implements ItemRepository {
 
     private final JdbcTemplate template;
 
-    public JdbcTemplateItemRepositoryV1(JdbcTemplate template) {
-        this.template = template;
+    public JdbcTemplateItemRepositoryV1(DataSource dataSource) {
+        this.template = new JdbcTemplate(dataSource);
     }
 
     @Override
