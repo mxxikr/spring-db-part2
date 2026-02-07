@@ -47,12 +47,12 @@
     * 실무 적용 및 생산성 향상 경험
 
 
-7. **데이터 접근 기술 - Querydsl**
+7. [**데이터 접근 기술 - Querydsl**](https://mxxikr.github.io/posts/spring-db-querydsl/)
     * 기존 방식의 문제점 해결 및 Querydsl 설정
     * 자바 코드로 작성하는 타입 안전한 쿼리 작성 및 적용
 
 
-8. **데이터 접근 기술 - 활용 방안**
+8. [**데이터 접근 기술 - 활용 방안**](https://mxxikr.github.io/posts/pring-db-access-strategy/)
     * 스프링 데이터 JPA와 Querydsl의 트레이드오프 분석
     * 다양한 데이터 접근 기술을 조합한 실용적인 데이터 접근 계층 구조 설계
 
