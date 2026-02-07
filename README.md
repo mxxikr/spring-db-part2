@@ -17,32 +17,32 @@
 
 ### 📝 Curriculum
 
-1. **데이터 접근 기술 - 시작**
+1. [**데이터 접근 기술 - 시작**](https://mxxikr.github.io/posts/spring-db-access-technology-start/)
     * 데이터 접근 기술 진행 방식 소개 및 프로젝트 설정(메모리 저장소)
     * 프로젝트 구조 설명(기본, 설정, 테스트) 및 데이터베이스 테이블 생성
 
 
-2. **데이터 접근 기술 - 스프링 JdbcTemplate**
+2. [**데이터 접근 기술 - 스프링 JdbcTemplate**](https://mxxikr.github.io/posts/spring-db-jdbctemplate/)
     * `JdbcTemplate` 설정 및 적용, 동적 쿼리 문제 분석
     * `NamedParameterJdbcTemplate`(이름 지정 파라미터)와 `SimpleJdbcInsert` 활용
 
 
-3. **데이터 접근 기술 - 테스트**
+3. [**데이터 접근 기술 - 테스트**](https://mxxikr.github.io/posts/spring-db-test/)
     * 데이터베이스 연동 테스트와 테스트 데이터 분리 전략
     * `@Transactional`을 활용한 테스트 데이터 롤백 및 임베디드 모드 DB 활용
 
 
-4. **데이터 접근 기술 - MyBatis**
+4. [**데이터 접근 기술 - MyBatis**](https://mxxikr.github.io/posts/spring-db-mybatis/)
     * MyBatis 설정 및 적용, XML 매퍼를 이용한 SQL 관리
     * 동적 쿼리 작성 및 스프링 통합 기능 활용
 
 
-5. **데이터 접근 기술 - JPA**
+5. [**데이터 접근 기술 - JPA**](https://mxxikr.github.io/posts/spring-db-jpa/)
     * SQL 중심 개발의 문제점과 ORM(Object-Relational Mapping) 개념
     * JPA 설정, 엔티티 매핑, 리포지토리 개발 및 예외 변환 처리
 
 
-6. **데이터 접근 기술 - 스프링 데이터 JPA**
+6. [**데이터 접근 기술 - 스프링 데이터 JPA**](https://mxxikr.github.io/posts/spring-db-spring-data-jpa/)
     * 스프링 데이터 JPA의 등장 배경과 주요 기능(공통 인터페이스, 쿼리 메서드)
     * 실무 적용 및 생산성 향상 경험
 
