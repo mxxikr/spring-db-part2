@@ -57,16 +57,16 @@
     * 다양한 데이터 접근 기술을 조합한 실용적인 데이터 접근 계층 구조 설계
 
 
-9. **스프링 트랜잭션 이해**
+9. [**스프링 트랜잭션 이해**](https://mxxikr.github.io/posts/spring-db-transaction-principles/)
     * 스프링 트랜잭션 추상화와 AOP 적용 위치 및 옵션(`readOnly` 등)
     * 트랜잭션 AOP 주의 사항(프록시 내부 호출, 초기화 시점) 및 예외 발생 시 커밋/롤백 원리
 
 
-10. **스프링 트랜잭션 전파1 - 기본**
+10. [**스프링 트랜잭션 전파1 - 기본**](https://mxxikr.github.io/posts/spring-transaction-propagation/)
     * 트랜잭션 전파(Propagation) 개념과 `REQUIRED`, `REQUIRES_NEW` 등 다양한 옵션 이해
     * 물리 트랜잭션과 논리 트랜잭션의 관계, 외부/내부 롤백 시 동작 방식
 
 
-11. **스프링 트랜잭션 전파2 - 활용**
+11. [**스프링 트랜잭션 전파2 - 활용**](https://mxxikr.github.io/posts/spring-transaction-propagation-practice/)
     * 트랜잭션 전파 옵션을 활용한 실무 예제 프로젝트 구현
     * `REQUIRES_NEW`를 활용한 예외 복구 및 독립적인 트랜잭션 처리 패턴 실습
